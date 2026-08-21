@@ -83,8 +83,8 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 
 ### Run the notebook
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/KVSGVinayak11/Exploratory-Data-Analysis-of-House-Prices-Dataset
+cd Exploratory-Data-Analysis-of-House-Prices-Dataset
 jupyter notebook "Exploratory_Data_Analysis_-_Houseprices.ipynb"
 ```
 
@@ -97,10 +97,4 @@ Update the CSV path in the first code cell to point to your local copy of `house
 - Includes an outlier-handling comparison (trimming vs. capping) not commonly covered alongside encoding/normalization workflows.
 - Concludes with a correlation heatmap to identify which engineered features are most predictive of `SalePrice` — a natural bridge into feature selection / model building.
 
-## 🤝 Contributing
 
-Feel free to open issues or submit pull requests with improvements, additional techniques, or bug fixes.
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
